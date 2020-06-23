@@ -5,6 +5,7 @@
   "main": "out/index.js",
   "scripts": {
     "dev": "vite serve -c ./vite.config.ts",
+    "debug": "node --inspect ./node_modules/vite/bin/vite serve -c ./vite.config.ts",
     "cp": "copyfiles -u 2 \"./workspace/src/**/*.css\" ./out",
     "prepare": "rm -rf ./out && tsc -p ./workspace/src && npm run cp"
   },
@@ -18,6 +19,7 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
     "@types/react": "^16.9.38",
     "@types/react-dom": "^16.9.8",
