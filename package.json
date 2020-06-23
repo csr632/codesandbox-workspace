@@ -4,6 +4,7 @@
   "description": "",
   "main": "out/index.js",
   "scripts": {
+    "dev": "vite serve -c ./vite.config.ts",
     "cp": "copyfiles -u 2 \"./workspace/src/**/*.css\" ./out",
     "prepare": "rm -rf ./out && tsc -p ./workspace/src && npm run cp"
   },
@@ -20,10 +21,20 @@
   "devDependencies": {
     "@types/react": "^16.9.38",
     "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
     "copyfiles": "^2.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.1",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.5",
+    "@mdx-js/react": "^1.6.6",
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "vite-pages-theme-basic": "^0.3.0",
+    "vite": "^1.0.0-beta.4",
+    "vite-plugin-mdx": "^0.3.0",
+    "vite-plugin-react": "^3.0.1",
+    "vite-plugin-react-pages": "^0.3.0"
   }
 }
