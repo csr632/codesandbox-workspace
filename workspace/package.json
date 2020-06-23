@@ -2,7 +2,7 @@
   "name": "codesandbox-workspace",
   "private": true,
   "description": "This project can be opened with codesandbox: https://codesandbox.io/s/github/csr632/codesandbox-workspace/tree/master/workspace",
-  "main": "demos/basic.tsx",
+  "main": "demos/demo1.tsx",
   "homepage": "https://github.com/csr632/codesandbox-workspace",
   "repository": {
     "type": "git",
