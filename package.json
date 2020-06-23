@@ -5,24 +5,25 @@
   "main": "out/index.js",
   "scripts": {
     "cp": "copyfiles -u 2 \"./workspace/src/**/*.css\" ./out",
-    "prepare": "rm -rf ./out && tsc -p ./workspace/src"
+    "prepare": "rm -rf ./out && tsc -p ./workspace/src && npm run cp"
   },
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/csr632/react-hook-svs",
+  "homepage": "https://github.com/csr632/codesandbox-workspace",
   "repository": {
     "type": "git",
-    "url": "https://github.com/csr632/react-hook-svs"
+    "url": "https://github.com/csr632/codesandbox-workspace"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^16.9.23",
-    "@types/react-dom": "^16.9.5",
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
     "copyfiles": "^2.3.0",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "typescript": "^3.8.3"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1",
+    "typescript": "^3.9.5"
   }
 }

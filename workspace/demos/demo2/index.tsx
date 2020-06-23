@@ -1,16 +1,21 @@
 import React from "react";
 import { Box } from "../../src";
-import styles from "./index.module.css";
+import styled from "styled-components";
 
 interface IProps {}
 
 const Demo: React.FC<IProps> = (props) => {
   return (
     <div>
-      <div className={styles.header}>Box demo</div>
+      <ScHeader>Box demo</ScHeader>
       <Box>test</Box>
     </div>
   );
 };
 
 export default Demo;
+
+const ScHeader = styled.div`
+  font-size: xx-large;
+  color: gray;
+`;

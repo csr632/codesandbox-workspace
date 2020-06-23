@@ -1,12 +1,12 @@
 {
   "name": "codesandbox-workspace",
   "private": true,
-  "description": "https://codesandbox.io",
+  "description": "This project can be opened with codesandbox: https://codesandbox.io/s/github/csr632/codesandbox-workspace/tree/master/workspace",
   "main": "demos/basic.tsx",
-  "homepage": "https://github.com/csr632/react-hook-svs",
+  "homepage": "https://github.com/csr632/codesandbox-workspace",
   "repository": {
     "type": "git",
-    "url": "https://github.com/csr632/react-hook-svs"
+    "url": "https://github.com/csr632/codesandbox-workspace"
   },
   "author": "",
   "license": "ISC",
