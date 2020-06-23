@@ -1,0 +1,21 @@
+{
+  "name": "codesandbox-workspace",
+  "private": true,
+  "description": "https://codesandbox.io",
+  "main": "demos/basic.tsx",
+  "homepage": "https://github.com/csr632/react-hook-svs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csr632/react-hook-svs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "typescript": "^3.8.3"
+  },
+  "keywords": []
+}
