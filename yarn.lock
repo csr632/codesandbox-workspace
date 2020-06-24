@@ -1693,7 +1693,7 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-esbuild@^0.5.3:
+esbuild@^0.5.11:
   version "0.5.11"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.5.11.tgz#9872ad552db1958d37a6ad7160294bf4320c0531"
   integrity sha512-E/SBK3tHIcj3iCZh0bUf8/pmEAcM10W7SH2feuHZSzTpLZmtxlWl9j5tesY6OLkv2oDgfX0r9mbOeltXUbJe4Q==
@@ -4558,14 +4558,14 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vite-pages-theme-basic@^0.3.0:
+vite-pages-theme-basic@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/vite-pages-theme-basic/-/vite-pages-theme-basic-0.3.2.tgz#59f0c08274a9df83c6f93cfad536cba0cd2eff78"
   integrity sha512-4O6EYkvClt+5YuiHXbNr2hL9zsZVroMzeSoa0Ir2edHBC51z/ilqrMcZnosCQ23XFB65C3l9Z4r4oEhnnQfduA==
   dependencies:
     github-markdown-css "^4.0.0"
 
-vite-plugin-mdx@^0.3.0:
+vite-plugin-mdx@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/vite-plugin-mdx/-/vite-plugin-mdx-0.3.2.tgz#10df5ba5c1a63b21f3cc9f9b0c4aaa483b6060a7"
   integrity sha512-awxgF2eZdknhl/ZSNEQCgcyMzIbQ1MVjmhmzYozHOUMb4dUedvaSeeJ7eog/b7SPEvh3V0kF1DVlOlxZMeijUg==
@@ -4574,7 +4574,7 @@ vite-plugin-mdx@^0.3.0:
     "@mdx-js/react" "^1.6.6"
     remark-frontmatter "^2.0.0"
 
-vite-plugin-react-pages@^0.3.0:
+vite-plugin-react-pages@^0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/vite-plugin-react-pages/-/vite-plugin-react-pages-0.3.3.tgz#56ab6f95eb22fc30d58c2b8f24bf7c37e07214a5"
   integrity sha512-Y5Wac6b6bkb4/6xrgtzMdZ7S5kKMZyx7QfI3ABIvxNGMQV4ySNzvJkkF5JPWIsiPePR3X/Nr3n4vGMGUTjWNQw==
@@ -4603,10 +4603,10 @@ vite-plugin-react@^3.0.1:
     "@babel/core" "^7.9.6"
     react-refresh "^0.8.2"
 
-vite@^1.0.0-beta.4:
-  version "1.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-1.0.0-beta.4.tgz#c69ff5d74519289da01d9d1eec8c92b5c39acb10"
-  integrity sha512-U/Tlxjf1FiJIHKAe14kOr0U5Q1z5UZXghESiisdJCTrFze3pRjlxr1R9nm/NmwyCH6J7E9XiHWlZMWZoogocOA==
+vite@^1.0.0-beta.5:
+  version "1.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-1.0.0-beta.5.tgz#73bf3c3451bd548cca9bb6c174974d27edf3cc57"
+  integrity sha512-Jl98WrRID1DCG6MMUjlV9PyPFQGOzWjuBdjYnCQmErXFwbM1GKkcP4GPtvuBPka5o59YG6h3xTtG5G390LG7uQ==
   dependencies:
     "@babel/parser" "^7.9.4"
     "@rollup/plugin-commonjs" "^13.0.0"
@@ -4624,7 +4624,7 @@ vite@^1.0.0-beta.4:
     dotenv "^8.2.0"
     dotenv-expand "^5.1.0"
     es-module-lexer "^0.3.18"
-    esbuild "^0.5.3"
+    esbuild "^0.5.11"
     etag "^1.8.1"
     execa "^4.0.1"
     fs-extra "^9.0.0"
@@ -4644,9 +4644,9 @@ vite@^1.0.0-beta.4:
     open "^7.0.3"
     ora "^4.0.4"
     postcss "^7.0.28"
+    postcss-discard-comments "^4.0.2"
     postcss-import "^12.0.1"
     postcss-load-config "^2.1.0"
-    postcss-modules "^2.0.0"
     resolve "^1.17.0"
     rollup "^2.11.2"
     rollup-plugin-dynamic-import-variables "^1.0.1"
