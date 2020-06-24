@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDom from "react-dom";
 
+// edit this import path
+// if you want to view another demo in CodeSandbox
 import Demo from "../demos/demo2/index$";
 
 if (!document.querySelector("#app-root")) {
